@@ -1,3 +1,13 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -5,9 +15,4 @@
     align-items: center;
 }
 
-.logo{
-    margin-top: 20px;
-    width: 40vh;
-    height: auto;
-}
 
