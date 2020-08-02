@@ -1,0 +1,90 @@
+.contact-message{
+    /*   flex-wrap: wrap;*/
+       padding: 15px;
+       margin: 100px 10px 100px 10px;
+       line-height: 2em;
+       text-align: center;
+   }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #5B1483; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #5B1483;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+  }
+
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+  .contact-message{
+    /*   flex-wrap: wrap;*/
+       padding: 30px;
+       margin: 120px 30px 20px 30px;
+       line-height: 2em;
+}
+
+  .form-container {
+    margin: 15px 300px;
+  }
+
+  input[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+}
+
+@media screen and (min-width: 1500px) {
+  .contact-message{
+    /*   flex-wrap: wrap;*/
+       padding: 30px;
+       margin: 100px 30px 100px 30px;
+       line-height: 2em;
+}
+.form-container {
+  margin: 15px 500px;
+}
+
+input[type=submit] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+}
+}

@@ -1,0 +1,28 @@
+.about-message{
+    /*   flex-wrap: wrap;*/
+       padding: 15px;
+       margin: 100px 10px 100px 10px;
+       line-height: 2em;
+       text-align: center;
+   }
+
+
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    .about-message{
+        /*   flex-wrap: wrap;*/
+           padding: 30px;
+           margin: 120px 30px 150px 30px;
+           line-height: 2em;
+    }
+    
+}
+
+@media screen and (min-width: 1500px) {
+    .about-message{
+        /*   flex-wrap: wrap;*/
+           padding: 30px;
+           margin: 180px 30px 150px 30px;
+           line-height: 2em;
+    }
+    
+}

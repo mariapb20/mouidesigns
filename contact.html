@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">    <link rel='stylesheet' href='styles/cssreset.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='styles/cssreset.css'/>
+    <link rel='stylesheet' href='styles/fonts.css'/>
+    <link rel='stylesheet' href='styles/general.css'/>
+    <link rel='stylesheet' href='styles/contact.css'/>
+         <!--  JS  -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div class='container'>
+        <header class='header' id="myHeader">
+            <div class="topnav" id="myTopnav">
+                <div class='menu-list'>
+                <a href="index.html" class="active"><img class='logo' src="images/logo.png" alt='Moui Designs logo'/></a>
+                <a href="index.html#catalogue">Catálogo</a>
+                <a href="about.html">Acerca de</a>
+                <a href="contact.html">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myTopNavFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+             <script src=scripts/topnav.js></script>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class='contact-message'>
+                <h1>Contáctanos</h1>
+                <h3><span class='bold-style'>¿Ves algo que te gusta?</span></h3>
+                <p>Podemos personalizar cualquier camiseta con la talla, color y diseño deseado.</p>
+                <p>Escríbenos  indicando: <span class='bold-style'>motivo de tu camiseta, color y talla </span>y te daremos toda la información de precios y tiempos de entrega.</p>
+            </div>
+            <div class="form-container">
+                <form action="/action_page.php">
+                  <label for="fname">Nombre</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Tu nombre">
+              
+                  <label for="lname">Email</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Tu email">
+              
+                  <label for="subject">Comentarios</label>
+                  <textarea id="subject" name="subject" placeholder="Motivo de tu camiseta, color y talla" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Contactar">
+                </form>
+            </div>
+        </main>
+        <footer class='footer'>        
+            <h2>¿Ves algo que te gusta?</h2>
+            <h3>Contáctanos con tus datos y te daremos toda la información de precios.</h3>
+            <div class='contact-details'>
+                <a class="social-media" href='https://www.instagram.com/mouidesigns/'><img class='icons-right' src="images/icons/instagram.svg" alt='Instagram'/></a>
+                <a class="social-media" href="mailto:mouidesigns@gmail.com"><img class='icons' src="images/icons/email.svg" alt='Email'/></a>
+            </div> 
+            <div class='copyright'><img class='icons-copyright' src="images/icons/copyright.svg" alt='Copyright symbol'/><p>Moui Designs</p></div>
+        </footer>
+    </div>
+</body>
+</html>

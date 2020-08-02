@@ -6,13 +6,50 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
-.container{
+.welcome-message{
+ /*   flex-wrap: wrap;*/
+    padding: 15px;
+    margin: 40px 10px 40px 10px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.go-down {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin: 40px 10px 40px 10px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    .welcome-message{
+        /*   flex-wrap: wrap;*/
+           padding: 30px;
+           margin: 120px 30px 70px 30px;
+           line-height: 2em;
+       
+    }
+
+    .go-down {
+       margin-right: 30px;
+    }
+    
+    
+}
+@media screen and (min-width: 1500px) {
+    .welcome-message{
+        /*   flex-wrap: wrap;*/
+           padding: 30px;
+           margin: 180px 30px 150px 30px;
+           line-height: 2em;
+       
+    }
+    
 }
 
 
