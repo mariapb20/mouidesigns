@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princesas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">    <link rel='stylesheet' href='styles/cssreset.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='styles/cssreset.css'/>
+    <link rel='stylesheet' href='styles/fonts.css'/>
+    <link rel='stylesheet' href='styles/general.css'/>
+</head>
+<body>
+    <div class='container'>
+        <header class='header' id="myHeader">
+            <div class="topnav" id="myTopnav">
+                <div class='menu-list'>
+                <a href="index.html" class="active"><img class='logo' src="images/logo.png" alt='Moui Designs logo'/></a>
+                <a href="index.html#catalogue">Catálogo</a>
+                <a href="about.html">Acerca de</a>
+                <a href="contact.html">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myTopNavFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+             <script src=scripts/topnav.js></script>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class='section-message'>
+                <h1>Princesas</h1>
+                <p>Dale un vistazo a nuestras camisetas con tus princesas favoritos.</p>
+            </div>
+            <div class='products' id='catalogue'>
+                <h2>Apliques de tela</h2>
+                <div class='image-row'>
+                    <div class="product-image"><img class='small-images' src="images/princesas/princesa_000.jpg" alt='Camiseta Elsa'/><h3>Elsa</h3></div>
+                    <div class="product-image"><img class='small-images' src="images/princesas/princesas_001.jpg" alt='Camiseta Blancanieves'/><h3>Blancanieves</h3></div>
+                    <div class="product-image"><img class='variable-images-small' src="images/princesas/princesas_002.jpg" alt='Camiseta Bella'/><h3>Silueta de Bella</h3></div>
+                    <div class="product-image"><img class='small-images' src="images/princesas/princesas_003.jpg" alt='Camiseta Moana'/><h3>Moana</h3></div>
+                    <div class="product-image"><img class='small-images' src="images/princesas/princesas_004.jpg" alt='Camiseta Rapunzel'/><h3>Rapunzel</h3></div>
+                    <div class="product-image"><img class='small-images' src="images/princesas/princesas_005.jpg" alt='Camiseta Princesas'/><h3>Princesas</h3></div>
+                    <div class="product-image"><img class='variable-images' src="images/princesas/princesas_006.jpg" alt='Camiseta Bella'/><h3>Bella</h3></div>
+                    <div class="product-image"><img class='big-images-fixed' src="images/princesas/princesas_007.jpg" alt='Camiseta Leia'/><h3>Leia</h3></div>
+                </div>
+            </div>
+            <div class='info-block'>
+                <h2>¿Ves algo que te gusta?</h2>
+                <h3>Podemos personalizar cualquier camiseta con la talla y diseño deseado.</h3>
+                <a href="contact.html" class="button">Contactar</a>
+            </div>
+            <div class='products' id='catalogue'>
+                <h2>Estampados</h2>
+                <div class='image-row'>
+                    <div class="product-image"><img class='variable-images' src="images/princesas/princesas_100.jpg" alt='Camiseta Princesas'/><h3>Princesas</h3></div>
+                    <div class="product-image"><img class='variable-images' src="images/princesas/princesas_101.jpg" alt='Camiseta Princesas'/><h3>Ariel</h3></div>
+                </div>
+            </div>
+            <div class='next-section'>
+		        <a class='button' href='personajes.html'>Ir a más personajes</a>
+		        <button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+		        <script src='scripts/onscroll.js'></script>
+	        </div>
+        </main>
+        <footer class='footer'>        
+            <h2>¿Ves algo que te gusta?</h2>
+            <h3>Contáctanos con tus datos y te daremos toda la información de precios.</h3>
+            <div class='contact-details'>
+                <a class="social-media" href='https://www.instagram.com/mouidesigns/'><img class='icons-right' src="images/icons/instagram.svg" alt='Instagram'/></a>
+                <a class="social-media" href="mailto:mouidesigns@gmail.com"><img class='icons' src="images/icons/email.svg" alt='Email'/></a>
+            </div> 
+            <div class='copyright'><img class='icons-copyright' src="images/icons/copyright.svg" alt='Copyright symbol'/><p>Moui Designs</p></div>
+        </footer>
+    </div>
+</body>
+</html>
